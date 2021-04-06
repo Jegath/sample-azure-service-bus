@@ -41,3 +41,7 @@ export const dbConnectionString = "db-connection-string";
    ```
    docker run --name app -d -p 8080:8080 job-challenge:todo
    ```
+
+The application only contain a single button which when pressed will get the json and sent to service bus
+
+![alt text](app.png "Title")
